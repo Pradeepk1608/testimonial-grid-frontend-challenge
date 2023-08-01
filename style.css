@@ -78,13 +78,15 @@ body{
     opacity: 100%;
     font-size: 1rem;
 }
-
+/* 
 #quote{
     position: absolute;
     right:13%;
     top:0;
     z-index: 1;
-
+} */
+img{
+    width:60px;
 }
 
 @media (min-width:576px){
@@ -95,7 +97,6 @@ body{
     #bottom{
         display: flex;
     } 
-
     #testimonial-1, #testimonial-4{
         flex-basis:65%;
     }
@@ -108,12 +109,13 @@ body{
     }
 
     #testimonial-5{
-        flex-basis : 25%
+        padding-top : 40px;
+        flex-basis : 20%
     }
 
     #main-left{
         flex-direction: column;
-        flex-basis: 75%;
+        flex-basis: 80%;
     }
 
     #testimonial-grid-container{
